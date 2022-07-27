@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: auto;
+    text-align: center;
+    color: rgba(54, 108, 155, 0.753);
+    background-color: rgba(151, 151, 133, 0.123);
+    padding: 20px 40px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.content{
+background-color: rgba(151, 151, 133, 0.123);
+padding: 40px;
+width: 100%;
+color: rgba(54, 108, 155, 0.753);
+}
+
+.item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px;
+    margin: 40px;
+    height: 250px;
+    border: 1.1px solid rgba(54, 108, 155, 0.753);
+    text-align: center;
+    border-radius: 6.5px;
+}
+
+.item:hover{
+    transform: scale(01.1);
+    transition:all 1.4s;
+    box-shadow: 2px 5px 5px 5px  rgba(128, 128, 128, 0.397);
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 20px;
+    color:rgba(54, 108, 155, 0.753);
+    font-size: 24px;
+}
+
+.item1{
+    background-image: url(/imagenes/Foto\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    background-image: url(/imagenes/Foto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url(/imagenes/Foto\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url(/imagenes/Foto\ 4.jpg);
+        background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    background-image: url(/imagenes/foto\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(/imagenes/foto\ 8.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+@media only screen and (max-width:370px)
+{
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:750px)
+{
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:950px)
+{
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: auto;
+    text-align: center;
+    color: rgba(54, 108, 155, 0.753);
+    background-color: rgba(151, 151, 133, 0.123);
+    padding: 20px 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.conjunto1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 63px;
+    margin-top: 50px;
+}
+
+.ph1{
+    width: 250px;
+    height: 250px;
+    background-image: url(/imagenes/Foto\ 1.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    grid-column: 1/2;
+    padding: 35px 35px;
+}
+
+.ph1:hover{
+    transform: scale(1.005);
+    transition:all 1s;
+    box-shadow: 2px 5px 5px 5px  rgba(128, 128, 128, 0.397);
+}
+
+.descripcion1{
+    grid-column: 2/3;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(69, 59, 88, 0.705);
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descripcion1d{
+    grid-column: 2/3;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(69, 59, 88, 0.705);
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ph1d{
+    background-image: url(/imagenes/foto\ 8.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 12px;
+    grid-column: 1/2;
+    padding: 35px 35px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.ph1d:hover{
+    transform: scale(1.005);
+    transition:all 1s;
+    box-shadow: 2px 5px 5px 5px  rgba(128, 128, 128, 0.397);
+}
+
+.cierre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:370px)
+{
+    .conjunto1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:750px)
+{
+    .conjunto1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:950px)
+{
+    .conjunto1{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+footer{
+    background-color: rgba(151, 151, 133, 0.123);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+padding: 8px 15px;
+color:rgba(54, 108, 155, 0.753);
+padding-bottom: 1px;
+}
+
+.social1{
+    color: rgba(39, 56, 211, 0.685);
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+.social2{
+    color: rgba(167, 66, 180, 0.877);
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+.social3{
+    color: green;
+    margin: 5px 5px;
+    padding: 2.5px 2.5px;
+}
+
+
+
